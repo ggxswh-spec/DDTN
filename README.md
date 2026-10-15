@@ -2,28 +2,6 @@
 
 Dynamic Discrete Topological Network (DDTN)：一个基于纯闭环本体论的候选统一物理研究纲领。
 
-本仓库包含：
-
-- `ddtn_research_program.tex` — 研究纲领主文档（LaTeX）
-- `ddtn_research_program.pdf` — 编译产物
-- `code/` — 附录 G 所述最小可行模型（MVM）可复现数值模拟代码
-
-## 构建 PDF
-
-依赖 [Tectonic](https://tectonic-typesetting.github.io/)（XeTeX 内核，自动按需下载宏包）。
-
-```bash
-# 方式一：Makefile（需要 make + tectonic 在 PATH 中）
-make pdf
-
-# 方式二：直接调用 tectonic
-tectonic ddtn_research_program.tex
-
-# 方式三：Windows PowerShell
-.\build.ps1
-```
-
-编译输出：`ddtn_research_program.pdf`。
 
 ## 运行 MVM 数值模拟
 
