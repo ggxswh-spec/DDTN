@@ -1,0 +1,36 @@
+# --- LaTeX ---
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# Tectonic cache
+Tectonic.toml
+build/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+*.egg
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
