@@ -20,6 +20,3 @@ python -m pytest tests/      # 单元测试
 | G.2  | `mvm/bell_chsh.py`          | 全局离散步数下瞬发同调重构 → CHSH $S=2\sqrt{2}$、无信号边缘 |
 | G.3  | `mvm/nielsen_ninomiya.py`   | 格点费米子倍增与拓扑畴壁零模 → 单一非简并手性零模 $E_0\approx 0$ |
 
-## 持续集成
-
-`.github/workflows/build.yml` 在每次推送时自动编译 PDF 并运行 MVM 测试，PDF 作为 artifact 上传。
